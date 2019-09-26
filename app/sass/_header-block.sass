@@ -1,0 +1,138 @@
+.header
+  width: 100%
+  max-width: 1920px
+  margin: 0 auto
+  background-color: #ffffff
+  z-index: 1
+  position: relative
+  .header-decoration
+    width: 560px
+    height: 540px
+    position: absolute
+    top: 0
+    right: 0
+    background-color: #28977D
+    z-index: 0
+  .header-block
+    padding: 19px 0 0 45px
+    z-index: 1
+    .header-top
+      position: relative
+      z-index: 2
+      .menu
+        position: absolute
+        display: flex
+        .burger
+          margin: 16px 0
+          padding: 20px 20px 20px 0
+          &:hover
+            cursor: pointer
+        .menu-content
+          padding-left: 0
+          z-index: 3
+          opacity: 1
+          transition: all 0.5s
+          li
+            list-style: none
+            display: inline-block
+            margin: 0
+            padding: 20px 20px
+            a
+              text-decoration: none
+              text-transform: uppercase
+              color: #222222
+              font-size: 13px
+              line-height: 15px
+              font-family: Roboto-Light, sans-serif
+        .menu-content_close
+          opacity: 0
+          z-index: -1
+          top: 0
+          left: 0
+      .logo
+        max-width: 288px
+        text-align: center
+        margin: 0 auto
+        z-index: 3
+        h2
+          font-size: 60px
+          line-height: 86px
+          font-family: Satisfy-Regular, sans-serif
+          margin: 0
+          text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
+          font-weight: 400
+    .header-middle
+      .middle-content
+        display: flex
+        justify-content: space-between
+        .left-block
+          max-width: 12px
+          .social-networks
+            margin-top: 170px
+            a
+              display: block
+              margin: 30px 0
+              img
+                display: block
+                margin: 0 auto
+          .counter
+            padding-top: 116px
+            img
+              padding: 15px 0 30px 0
+            .number_window
+              margin-top: 3px
+              margin-left: -5px
+              width: 15px
+              height: 15px
+              position: relative
+              overflow: hidden
+              .number_container
+                position: absolute
+                left: 0
+                top: -1px
+                display: block
+                .number
+                  display: block
+                  padding: 0
+                  font-size: 13px
+                  font-family: 'Roboto-Light', sans-serif
+                  transform: rotate(-90deg)
+                  margin: 0
+        .center-block
+          padding-top: 70px
+          max-width: 950px
+          margin-left: 105px
+          position: relative
+          .slider-container
+            .sl
+              .sl_slide
+                img
+                  width: 100%
+          .button
+            position: absolute
+            top: 619px
+            left: -196px
+            z-index: 4
+            a
+              text-decoration: none
+              text-transform: uppercase
+              color: #ffffff
+              font-size: 18px
+              font-family: Roboto-Regular, sans-serif
+              .button_text
+                float: left
+                background-color: #28977D
+                padding: 31px 27px
+              .button_img
+                float: left
+                background-color: #ffffff
+                margin: 0
+                padding: 25.5px 30px
+        .right-block
+          margin: 505px 76px 0 0
+          ul
+            padding-left: 0
+            list-style: none
+
+
+
